@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
-		siteUrl: "https://www.yourdomain.tld",
-		title: "DTC Signatures",
+		siteUrl: "https://join.dawsontech.club",
+		title: "Join DTC",
 	},
 	plugins: [
 		"gatsby-plugin-image",
@@ -20,18 +20,13 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: "Dawson Tech Club Signatures",
-				short_name: "DTC Signatures",
+				name: "Join DTC",
+				short_name: "Join DTC",
 				start_url: "/",
-				background_color: "#6b37bf",
-				theme_color: "#6b37bf",
-				// Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-				// see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+				background_color: "#1985C5",
+				theme_color: "#1985C5",
 				display: "standalone",
-				icon: "src/images/icon.png", // This path is relative to the root of the site.
-				// An optional attribute which provides support for CORS check.
-				// If you do not provide a crossOrigin option, it will skip CORS for manifest.
-				// Any invalid keyword or empty string defaults to `anonymous`
+				icon: "src/images/icon.png",
 				crossOrigin: `use-credentials`,
 			},
 		},
