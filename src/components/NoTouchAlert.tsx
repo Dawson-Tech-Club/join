@@ -11,15 +11,15 @@ export function NoTouchAlert() {
 	}, []);
 	return (
 		<>
-			(url && (
-			<Alert style={{ marginBottom: 20 }} severity="info">
-				<AlertTitle>You are not on a touch screen device.</AlertTitle>
-				This form requires a signature. Scan the QR Code with your phone.
-				<div style={{ marginTop: 10 }}>
-					<QRCode value={url} bgColor="transparent" size={200}></QRCode>
-				</div>
-			</Alert>
-			)
+			{url && (
+				<Alert style={{ marginBottom: 20 }} severity="info">
+					<AlertTitle>You are not on a touch screen device.</AlertTitle>
+					This form requires a signature. Scan the QR Code with your phone.
+					<div style={{ marginTop: 10 }}>
+						<QRCode value={url} bgColor="transparent" size={200}></QRCode>
+					</div>
+				</Alert>
+			)}
 		</>
 	);
 }
