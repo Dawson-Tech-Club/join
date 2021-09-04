@@ -9,8 +9,7 @@ export function Footer() {
 				<Link href="https://github.com/Dawson-Tech-Club/join">GitHub Repository</Link>
 			</Typography>
 			<Typography variant="caption" color="textSecondary">
-				©Dawson Tech Club 2021-
-				{new Date().getFullYear()}
+				Dawson Tech Club © {new Date().getFullYear()}
 			</Typography>
 		</div>
 	);
