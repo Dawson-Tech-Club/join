@@ -14,7 +14,7 @@ export function Head({ name }: { name: string }) {
 			meta={[
 				{
 					property: `og:title`,
-					content: "Join the Dawson Tech Club!",
+					content: "Join the Dawson Tech Club",
 				},
 				{
 					property: `og:type`,

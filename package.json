@@ -14,7 +14,7 @@
 		"serve": "gatsby serve",
 		"clean": "gatsby clean",
 		"check": "gatsby build && start http://localhost:9000 && gatsby serve",
-		"create": "gatsby build && rm -rf docs && mv public docs"
+		"build-gh": "gatsby build && rm -rf docs && mv public docs && cp CNAME docs"
 	},
 	"dependencies": {
 		"@material-ui/core": "^4.12.3",
