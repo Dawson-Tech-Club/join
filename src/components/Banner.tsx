@@ -9,7 +9,7 @@ import bannerImage from "../images/banner.png";
 export function Banner() {
 	return (
 		<Card style={{ marginBottom: 20 }}>
-			<CardMedia component="img" height="140" image={bannerImage} />
+			<CardMedia component="img" height="140" image={bannerImage} alt="banner" />
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="h2">
 					Dawson Tech Club

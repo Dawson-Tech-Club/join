@@ -21,7 +21,6 @@ module.exports = {
 			resolve: `gatsby-plugin-manifest`,
 			options: {
 				name: "Join DTC",
-				short_name: "Join DTC",
 				start_url: "/",
 				background_color: "#1985C5",
 				theme_color: "#1985C5",
