@@ -1,37 +1,39 @@
 {
-  "name": "sign",
-  "version": "1.0.0",
-  "private": true,
-  "description": "sign",
-  "author": "STR1Z",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/lab": "^4.0.0-alpha.60",
-    "gatsby": "^3.13.0",
-    "gatsby-plugin-image": "^1.13.0",
-    "gatsby-plugin-manifest": "^3.13.0",
-    "gatsby-plugin-material-ui": "^3.0.1",
-    "gatsby-plugin-react-helmet": "^4.13.0",
-    "gatsby-plugin-sharp": "^3.13.0",
-    "gatsby-source-filesystem": "^3.13.0",
-    "gatsby-theme-material-ui": "^2.0.1",
-    "gatsby-transformer-sharp": "^3.13.0",
-    "jsencrypt": "^3.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "react-material-ui-form-validator": "^2.1.4",
-    "react-qr-code": "^2.0.2",
-    "react-signature-canvas": "^1.0.3"
-  }
+	"name": "sign",
+	"version": "1.0.0",
+	"private": true,
+	"description": "sign",
+	"author": "STR1Z",
+	"keywords": [
+		"gatsby"
+	],
+	"scripts": {
+		"develop": "gatsby develop",
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"serve": "gatsby serve",
+		"clean": "gatsby clean",
+		"check": "gatsby build && start http://localhost:9000 && gatsby serve",
+		"create": "gatsby build && mv public docs"
+	},
+	"dependencies": {
+		"@material-ui/core": "^4.12.3",
+		"@material-ui/lab": "^4.0.0-alpha.60",
+		"gatsby": "^3.13.0",
+		"gatsby-plugin-image": "^1.13.0",
+		"gatsby-plugin-manifest": "^3.13.0",
+		"gatsby-plugin-material-ui": "^3.0.1",
+		"gatsby-plugin-react-helmet": "^4.13.0",
+		"gatsby-plugin-sharp": "^3.13.0",
+		"gatsby-source-filesystem": "^3.13.0",
+		"gatsby-theme-material-ui": "^2.0.1",
+		"gatsby-transformer-sharp": "^3.13.0",
+		"jsencrypt": "^3.2.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-helmet": "^6.1.0",
+		"react-material-ui-form-validator": "^2.1.4",
+		"react-qr-code": "^2.0.2",
+		"react-signature-canvas": "^1.0.3"
+	}
 }
