@@ -10,7 +10,7 @@ export default function Index() {
 	return (
 		<>
 			<Helmet>
-				<title>DTC Sign - Join us</title>
+				<title>DTC Signature - Join us</title>
 			</Helmet>
 			<Navbar></Navbar>
 			<Container maxWidth="sm" style={{ marginBottom: 20 }}>

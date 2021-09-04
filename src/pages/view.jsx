@@ -20,7 +20,7 @@ export default function View() {
 	return (
 		<Container style={{ marginTop: 20 }}>
 			<Helmet>
-				<title>DTC Sign - View</title>
+				<title>DTC Signature - View</title>
 			</Helmet>
 			{!privateKey && (
 				<Button variant="contained" component="label" style={{ marginBottom: 20 }}>

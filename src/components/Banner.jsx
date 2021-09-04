@@ -11,7 +11,7 @@ export function Banner() {
 			<CardMedia component="img" height="140" image={bannerImage} />
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="h2">
-					Dawson Technology Club
+					Dawson Tech Club
 				</Typography>
 				<Typography variant="body2" color="textSecondary" component="p">
 					Learn, explore and build cool things using all sort of technologies. Our main

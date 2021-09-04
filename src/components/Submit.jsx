@@ -9,8 +9,8 @@ export function Submit() {
 					Thank you!
 				</Typography>
 				<Typography variant="body1" color="textSecondary" gutterBottom>
-					Thank you for being a member of the Dawson Technology Club. Hope to see you soon
-					on campus!
+					Thank you for being a member of the Dawson Tech Club. Hope to see you soon on
+					campus!
 				</Typography>
 			</CardContent>
 			<CardActions>

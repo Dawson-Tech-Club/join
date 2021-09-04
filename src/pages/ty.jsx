@@ -9,7 +9,7 @@ export default function Ty() {
 	return (
 		<>
 			<Helmet>
-				<title>DTC Sign - Thank you!</title>
+				<title>DTC Signature - Thank you!</title>
 			</Helmet>
 			<Navbar></Navbar>
 			<Container maxWidth="sm" style={{ marginBottom: 20 }}>
