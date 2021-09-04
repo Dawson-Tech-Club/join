@@ -14,7 +14,7 @@
 		"serve": "gatsby serve",
 		"clean": "gatsby clean",
 		"check": "gatsby build && start http://localhost:9000 && gatsby serve",
-		"create": "gatsby build && mv public docs"
+		"create": "gatsby build && rm -rf docs && mv public docs"
 	},
 	"dependencies": {
 		"@material-ui/core": "^4.12.3",
@@ -35,5 +35,10 @@
 		"react-material-ui-form-validator": "^2.1.4",
 		"react-qr-code": "^2.0.2",
 		"react-signature-canvas": "^1.0.3"
+	},
+	"devDependencies": {
+		"@types/react-helmet": "^6.1.2",
+		"@types/react-material-ui-form-validator": "^2.1.1",
+		"@types/react-signature-canvas": "^1.0.2"
 	}
 }
